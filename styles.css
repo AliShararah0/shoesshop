@@ -118,9 +118,7 @@ nav {
   left: 0;
   width: 100%;
   height: 90%;
-  background:
-    linear-gradient(rgba(158, 158, 158, 0.5), rgba(158, 158, 158, 0.5)),
-    url('/images/ai-generated-shoes-store-advertisment-background-with-copy-space-free-photo.jpg');
+   background-image: url(ai-generated-shoes-store-advertisment-background-with-copy-space-free-photo.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -580,7 +578,7 @@ background-color: burlywood;
 }
 
 .contactbody{
-  background-image: url(/images/3f49b440b5948174e6cf614a2b80a447.webp);
+  background-image: url(3f49b440b5948174e6cf614a2b80a447.webp);
 }
 
 
