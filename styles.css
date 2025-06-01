@@ -280,7 +280,7 @@ footer {
 }
 
 .shopbody {
-  background-image: url(/images/ai-generated-shoes-store-advertisment-background-with-copy-space-free-photo.jpg);
+  background-image: url(ai-generated-shoes-store-advertisment-background-with-copy-space-free-photo.jpg);
   background-repeat: no-repeat;        
   background-size: cover;              
   background-position: center center; 
@@ -381,11 +381,11 @@ footer {
 
 
 .cart-container {
-  position: absolute;
-  top: 70px;
+  position: fixed;
+  top: 70px;     
   right: 0;
   width: 320px;
-  background: #fff;
+  background: white;
   box-shadow: -3px 0 8px rgba(0,0,0,0.1);
   padding: 15px;
   z-index: 1000;
@@ -460,6 +460,7 @@ footer {
   display: flex;
   flex-direction: column;
   margin: 20px auto; 
+ 
 }
 
   .cart-items {
