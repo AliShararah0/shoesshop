@@ -462,13 +462,13 @@ footer {
   transition: background-color 0.3s ease;
 }
 
-
+/* Slightly more weight to Buy Now by giving it more flex */
 .buy-now-btn {
   background-color: #28a745;
   flex: 1.9;
 }
 
-
+/* Clear Cart Button */
 .clear-cart-btn {
   background-color: #ff0000;
 }
@@ -673,7 +673,7 @@ body.loginbody {
 .login-btn {
   width: 100%;
   padding: 0.7rem;
-  background-color: #ff7f50;
+  background-color: #4b1e0d;
   border: none;
   color: white;
   font-size: 1.1rem;
@@ -694,7 +694,7 @@ body.loginbody {
 }
 
 .signup-text a {
-  color: #ff7f50;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-weight: 600;
 }
