@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Shoes Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+ 
+ 
+    <nav>
+    <div class="logo">👟 ShoeStore</div>
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+    <ul class="menu" id="nav-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="aboutus.html">About US</a></li>
+      <li><a href="contactus.html">Contact</a></li>
+    </ul>
+    <div class="actions">
+      <div class="cart">🛒</div>
+<a href="signin.html" class="signin-btn">Sign In</a>    </div>
+  </nav>
+
+
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Your Step Into Style</h1>
+    <p>Discover our newest collection of sneakers, boots, and casual shoes all crafted for comfort and performance.</p>
+    <a href="shop.html" class="hero-btn">Shop Now</a>
+  </div>
+</section>
+ 
+<section class="featured-products">
+  <div class="product-grid">
+  
+
+
+
+
+
+    <div class="product-card3 active">
+          <img src="download.jpg" alt="Sneaker Model X" />
+          <h3>Sneaker Model X</h3>
+          <p>$79.99</p>
+          <button onclick="location.href='shop.html'">Shop</button>
+        </div>
+
+        <div class="product-card3">
+          <img src="download (1).jpg" alt="Classic Boot Y" />
+          <h3>Classic Boot Y</h3>
+          <p>$99.99</p>
+           <button onclick="location.href='shop.html'">Shop</button>
+        </div>
+
+        <div class="product-card3">
+          <img src="download (4).jpg" alt="Casual Shoe Z" />
+          <h3>Casual Shoe Z</h3>
+          <p>$69.99</p>
+           <button onclick="location.href='shop.html'">Shop</button>
+        </div>
+
+
+
+        <div class="product-card active">
+    <img src="97044d542c6e76c08a1d0a70f9554114.webp" alt="NIKE ZOOM VOMERO 5" />
+    <h3>NIKE ZOOM VOMERO</h3>
+    <p>$79.99</p>
+    <button onclick="location.href='shop.html'">Shop</button>
+  </div>
+
+
+  <div class="product-card">
+    <img src="3f49b440b5948174e6cf614a2b80a447.webp" alt="JA 2" />
+    <h3>JA 2</h3>
+    <p>$89.99</p>
+    <button onclick="location.href='shop.html'">Shop</button>
+  </div>
+
+
+  <div class="product-card">
+    <img src="39ce53e726c4014eb80f14ae52628d18.webp" alt="NIKE AIR FORCE 1 07" />
+    <h3>NIKE AIR FORCE 1 07</h3>
+    <p>$69.99</p>
+    <button onclick="location.href='shop.html'">Shop</button>
+  </div>
+</div>
+
+  <a href="shop.html" class="view-all-btn">View All Shoes</a>
+</section>
+
+
+
+ 
+
+
+
+
+
+<footer>
+  <div class="footer-container">
+    <p>© 2025 ShoeStore. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#">Facebook</a> |
+      <a href="#">Instagram</a> |
+      <a href="#">Twitter</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+const cards1 = document.querySelectorAll('.product-card');
+const cards3 = document.querySelectorAll('.product-card3');
+
+let index1 = 0;
+let index3 = 0;
+
+// Function to cycle product-card group
+setInterval(() => {
+  cards1[index1].classList.remove('active');
+  index1 = (index1 + 1) % cards1.length;
+  cards1[index1].classList.add('active');
+}, 2000);
+
+// Function to cycle product-card3 group
+setInterval(() => {
+  cards3[index3].classList.remove('active');
+  index3 = (index3 + 1) % cards3.length;
+  cards3[index3].classList.add('active');
+}, 2000);
+
+
+
+
+  
+
+  function toggleMenu() {
+    const menu = document.getElementById('nav-menu');
+    menu.classList.toggle('show');
+  }
+
+
+
+</script>
+
+
+</body>
+</html>
