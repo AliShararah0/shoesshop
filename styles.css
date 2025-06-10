@@ -716,12 +716,16 @@ background-color: burlywood;
 
 
 .login-container {
-  background-image: url(fashion-shoes-sneaker_1203-8081.avif);
-  height: 100vh; 
+  background-image: url('fashion-shoes-sneaker_1203-8081.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
   display: flex;
-  justify-content: center; 
-  align-items: center;    
+  justify-content: center;
+  align-items: center;
 }
+
 
 .login-box {
   background: rgb(240, 235, 224);
