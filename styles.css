@@ -624,9 +624,13 @@ background-color: burlywood;
   box-sizing: border-box; 
 }
 
-.contactbody{
+.contactbody {
   background-image: url(3f49b440b5948174e6cf614a2b80a447.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 
 .product-card {
