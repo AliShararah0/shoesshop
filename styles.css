@@ -110,21 +110,12 @@ nav {
   color: white;
   text-align: center;
   position: relative;
-}
-
-.hero::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 90%;
-  background-image: url(ai-generated-shoes-store-advertisment-background-with-copy-space-free-photo.jpg);
+  background-image: url('ai-generated-shoes-store-advertisment-background-with-copy-space-free-photo.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed; 
   z-index: 1;
-  pointer-events: none;
 }
 
 .hero-content {
