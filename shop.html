@@ -99,12 +99,6 @@
       <button>Add to Cart</button>
     </div>
 
-    <div class="product-card2" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="800">
-      <img src="images/shoe6.jpg" alt="Trail Hiking Shoes" />
-      <h3>Trail Hiking Shoes</h3>
-      <p>$110.00</p>
-      <button>Add to Cart</button>
-    </div>
   </div>
 </section>
 
@@ -134,7 +128,9 @@
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-AOS.init();
+  AOS.init({
+    disable: 'mobile' 
+  });
 
 
     function toggleMenu() {
